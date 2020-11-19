@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background: #f6f7f8;
+
+  font-family: "Nunito", sans-serif;
+}
+:root {
+  font-size: 62.5%;
+}
