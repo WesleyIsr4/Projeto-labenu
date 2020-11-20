@@ -1,0 +1,99 @@
+@media only screen and (max-width: 600px) {
+  section img {
+    width: clamp(25rem, 25vw, 56rem);
+    margin-top: 8rem;
+    vertical-align: middle;
+  }
+
+  .box-details-course {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+
+  #item-box {
+    width: 14rem;
+    margin: 7px;
+  }
+
+  footer input {
+    height: 45px;
+    width: 25rem;
+    float: left;
+
+    border: 1px solid #000;
+    border-radius: 5px 0 0 5px;
+
+    padding: 10px;
+  }
+
+  footer #button-send {
+    height: 43px;
+    width: 75px;
+
+    background-color: #f6f7f8;
+    color: #000;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    border: none;
+
+    border-radius: 0 5px 5px 0;
+
+    transition: background-color 200ms;
+  }
+
+  footer #validateEmail:hover {
+    background-color: #b9cdda;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .box-details-course {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  footer input {
+    height: 45px;
+    width: 15rem;
+    float: left;
+
+    border: 1px solid #000;
+    border-radius: 5px 0 0 5px;
+
+    padding: 10px;
+  }
+
+  footer #button-send {
+    height: 43px;
+    width: 90px;
+
+    background-color: #f6f7f8;
+    color: #000;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    border: none;
+
+    border-radius: 0 5px 5px 0;
+
+    transition: background-color 200ms;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .box-details-course {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+  }
+
+  #item-box {
+    width: 8rem;
+    height: 8rem;
+  }
+}
